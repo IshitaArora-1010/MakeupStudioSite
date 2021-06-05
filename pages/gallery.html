@@ -107,7 +107,7 @@ Licence URI: https://www.os-templates.com/template-terms
           <header class="heading" style="text-align: center; font-size: xx-large;"><i><b>Galeria</b></i></header>
           <ul class="nospace clear">
             <li class="one_quarter first"><a href="../images/demo/gallery/2.jpeg" id="pop"><img src="../images/demo/gallery/2.jpeg" alt=""></a></li>
-            <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/3.jpeg" alt=""></a></li>
+            <li class="one_quarter"><a href="#"><img id="myImg" src="../images/demo/gallery/3.jpeg" alt="Trolltunga, Norway" width="500" height="300"></a></li>
             <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/4.jpeg" alt=""></a></li>
             <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/5.jpeg" alt=""></a></li>
             <li class="one_quarter first"><a href="#"><img src="../images/demo/gallery/19.jpeg" alt=""></a></li>
@@ -134,6 +134,11 @@ Licence URI: https://www.os-templates.com/template-terms
           <!-- <figcaption>Gallery Description Goes Here</figcaption> -->
         </figure>
       </div>
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+      </div>
+</section>
       <!-- ################################################################################################ -->
       <!-- ################################################################################################ -->
       <nav class="pagination">
@@ -277,6 +282,28 @@ Licence URI: https://www.os-templates.com/template-terms
 $("#pop").on("click", function() {
    $(this).modal();
 });
+</script>
+<script>
+ // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}    
 </script>
 </body>
 </html>
