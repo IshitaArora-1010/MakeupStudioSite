@@ -554,7 +554,7 @@ table a, #comments a{background-color:inherit;}
 	margin: auto;
 	display: block;
 	width: 80%;
-	max-width: 700px;
+	max-width: 300px;
   }
   
   /* Caption of Modal Image (Image Text) - Same Width as the Image */
