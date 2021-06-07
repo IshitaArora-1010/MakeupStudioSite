@@ -16,7 +16,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 .row0, .row0 a{}
 .row1, .row1 a{}
-.row2, .row2 a{}
+.row2, .row2 a{height: 700px;}
 .row3, .row3 a{}
 .row4, .row4 a{}
 .row5, .row5 a{}
@@ -54,7 +54,7 @@ File: Layout CSS
 
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
-#pageintro{padding:200px 0 400px;}/* 400px => 200px for #introblocks negative margin */
+#pageintro{padding:200px 0 250px;}/* 400px => 200px for #introblocks negative margin */
 
 #pageintro article, #pageintro article p{display:block; max-width:75%; margin:0 auto; text-align:center;}
 #pageintro article p{max-width:65%; line-height:2rem;}
