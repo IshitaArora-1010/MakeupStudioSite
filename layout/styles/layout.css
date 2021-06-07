@@ -350,9 +350,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#B946AD !important;}
 /* Header */
 #header #logo h1 a{color:inherit;}
 
-
+/* header background image */
+#home #backimg{background-image:url('images/demo/backgrounds/shikhamakeover.png');position:relative; background-repeat:no-repeat;min-width: 100%; min-height: 100%;}
 /* Page Intro */
-#pageintro{color:#FFFFFF;}
+#home #pageintro{color:#FFFFFF;}
 
 
 /* Content Area */
