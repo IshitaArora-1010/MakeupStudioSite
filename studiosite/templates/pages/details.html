@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Details</title>
+    <link href="{% static '/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="scrollable wrapper row1" style="background-image: linear-gradient(to right, white , grey);">
+        <a href="/gallery" style="margin:10px;"><i class="fa-arrow-circle-left fa-fw fas"></i></a>
+        <div align="center">
+            <img src = "{{ theta_image.thumb.url }}" alt="">
+        </div>
+    </div>
+
+</body>
+</html>

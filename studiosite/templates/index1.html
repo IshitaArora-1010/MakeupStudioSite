@@ -1,0 +1,297 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+<!--<link href="{% static '/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">-->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">-->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>-->
+<!-- ################################################################################################ -->
+<!-- Top Background Image Wrapper -->
+<div class="bgded" style="background-image:url('static/demo/backgrounds/Artboard 1.png');position:relative; background-repeat:no-repeat;min-width: 100%; min-height: 100%;" id="home">
+  <!-- ################################################################################################ -->
+  <div class="wrapper row1">
+    <header id="header" class="hoc clear">
+      <div id="logo" class="fl_left"> 
+        <!-- ################################################################################################ -->
+        <h1><a href="index">Shikha Aggarwal</a></h1>
+        <!-- ################################################################################################ -->
+      </div>
+      <nav id="mainav" class="fl_right"> 
+        <!-- ################################################################################################ -->
+        <ul class="clear">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="gallery">Gallery</a></li>
+          <li><a href="courses">Courses</a></li>
+          <li><a href="services">Packages</a></li>
+          <li><a href="#contact" class="nav__link">Contact Us</a></li>
+
+        </ul>
+        <!-- ################################################################################################ -->
+      </nav>
+    </header>
+  </div>
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <div class="overlay">
+    <div id="pageintro" class="hoc clear"> 
+      <!-- ################################################################################################ -->
+      <article>
+        <h4 class="heading">SHIKHA AGGARWAL MAKEOVERS</h4>
+        <p><i><b>Makeup</b> is a way for a woman to look and feel beautiful like herself, only prettier and more confident.</i></p>
+        <p><i><b>Shikha Aggarwal Makeovers</b> believes in creating exceptional looks, which are famous all over Ludhiana for their extraordinary talent.</i></p>
+        <footer><a class="btn" href="#contact" class="nav__link">Book your appointment</a></footer>
+      </article>
+      <!-- ################################################################################################ -->
+    </div>
+  </div>
+  <!-- ################################################################################################ -->
+</div>
+<!-- End Top Background Image Wrapper -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <section id="introblocks">
+      <ul class="nospace group btmspace-80">
+        <li class="one_third first">
+          <figure><a class="imgover" href="gallery"><img src="{% static '\demo\home\1.png' %}" alt=""></a>
+            <figcaption>
+              <h6 class="heading">
+                <a href = "gallery">Gallery</a></h6>
+              <div>
+                <p>Shikha Aggarwal has given makeovers to so many people till date. This not only dramatically changes their appearance but boosts their confidence. Here’s a glimpse of the same.</p>
+              </div>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="one_third">
+          <figure><a class="imgover" href="courses"><img src="{% static '\demo\home\2.png' %}" alt=""></a>
+            <figcaption>
+              <h6 class="heading">
+                <a href = "courses">Makeup Courses</a></h6>
+              <div>
+                <p>Shikha Aggarwal Makeovers in Ludhiana offers basic, self grooming and professional courses in Makeup and Hair styling suited perfectly to all needs. All courses are undertaken by Shikha Aggarwal and other trainers in very small batch sizes. Click to find out more about the courses we offer along with the fee and dates etc.</p>
+              </div>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="one_third">
+          <figure><a class="imgover" href="services"><img src="{% static '\demo\home\3.png' %}" alt=""></a>
+            <figcaption>
+              <h6 class="heading">
+                <a href = "services">Makeup Packages</a></h6>
+              <div>
+                <p>Makeup totally transforms the way you look and redefines your beauty. Here are some luxurious makeup packages at SAM exclusively offering you the essence of beauty and perfection for every event you wish to slay at with style and glamour. Check out the following Makeup Packages.
+
+                </p>
+              </div>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+    </section>
+    <!-- ################################################################################################ -->
+    <hr class="btmspace-80">
+    <!-- ################################################################################################ -->
+    <section class="group">
+      <div class="one_half first"><img class="inspace-15 borderedbox" src="{% static '\demo\gallery\Untitled design (1).png' %}" alt=""></div>
+      <div class="one_half">
+        <h1 class = "heading" style="text-align: center;"><b><a>ABOUT US</a></b></h1>
+        <p class="nospace"><b>"I believe makeup is a way for a woman to look and feel beautiful like herself, only prettier and more confident."</b></p>
+        <br>
+        <p class="nospace">A talented makeup artist not only transforms a woman into a symbol of how every beautiful woman should look like but all together makes a woman feel gorgeous yet with her flaws making her fall in love with herself all over again.</p>
+        <p><a style="color:#B946AD"><b>Shikha Aggarwal</b></a> started her career as a Makeup artist in 2015.She is the self taught and self motivated woman who inspires all women to be more confident and career oriented.After going through immense period of introspeaction Shikha decided to do more than just be a homemaker.She saw the inner hidden talent of hers and decided to learn the makeup.Supported by her family and friends she has now come a long way in the field of makeup artists.</p>
+        <p>I love the satisfication I get after looking at the smile of my client after I finish,This make my every struggle worth it.</p>
+
+      </div>
+    </section>
+    <!-- ################################################################################################ -->
+    <!-- / main body -->
+    <div class="clear"></div>
+  </main>
+</div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<div class="bgded overlay" style="background-image:url('static/demo/backgrounds/bg.png'); background-attachment: fixed; min-width: 100%; min-height: 100%; display: block;" id="services">
+  <figure class="hoc container clear imgroup"> 
+    <!-- ################################################################################################ -->
+    <figcaption class="sectiontitle">
+      <!-- <p class="nospace font-xs">Pulvinar sem eu tincidunt magna</p> -->
+      <p class="heading underline font-x2">Services</p>
+    </figcaption>
+    <ul class="nospace group">
+      <li class="one_third" style="text-align: center;"><a class="imgover" href="services"><img src="{% static '\demo\gallery\29.png' %}" alt=""></a><b>Party Makeup</b></li>
+      <li class="one_third" style="text-align: center;"><a class="imgover" href="services"><img src="{% static '\demo\gallery\30.png' %}" alt=""></a><b>Engagement Makeup</b></li>
+      <li class="one_third" style="text-align: center;"><a class="imgover" href="services"><img src="{% static '\demo\gallery\31.png' %}" alt=""></a><b>Bridal Makeup</b></li>
+      <!-- <li class="one_third"><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a></li>
+      <li class="one_third"><a class="imgover" href="#"><img src="images/demo/348x261.png" alt=""></a></li> -->
+    </ul>
+    <!-- ################################################################################################ -->
+  </figure>
+  <!-- ################################################################################################ -->
+  </section>
+</div>
+
+<div class="wrapper row3" id="courses">
+  <section class="hoc container clear"> 
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <!-- <p class="nospace font-xs">Felis dictum viverra mauris dui</p> -->
+      <p class="heading underline font-x2">Courses</p>
+    </div>
+    <ul id="latest" class="nospace group">
+      <li class="one_third first">
+        <article><a class="imgover" href="courses"><img src="{% static '\demo\gallery\38.png' %}" alt=""></a>
+          <ul class="nospace meta clear">
+            <!-- <li><i class="fas fa-user"></i> <a href="#">Admin</a></li>
+            <li><i class="fas fa-comments"></i> <a href="#">Comments (10)</a></li> -->
+          </ul>
+          <div class="excerpt clear">
+            <h6 class="heading">Self Grooming course</h6>
+            <time datetime="2045-04-05T08:15+00:00"><strong>10</strong> <em>Days</em></time>
+            <p>10 Individual Classes + Practical Classes</p>
+            <p>Extra Practice Sessions if required</p>
+            <p>Price: Rs. 5000</p>
+          </div>
+          <footer><a class="btn" href="courses">Read More</a></footer>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a class="imgover" href="courses"><img src="{% static '\demo\gallery\39.png' %}" alt=""></a>
+          <ul class="nospace meta clear">
+            <!-- <li><i class="fas fa-user"></i> <a href="#">Admin</a></li>
+            <li><i class="fas fa-comments"></i> <a href="#">Comments (10)</a></li> -->
+          </ul>
+          <div class="excerpt clear">
+            <h6 class="heading">Private Pro Makeup Course</h6>
+            <time datetime="2045-04-04T08:15+00:00"><strong>21</strong> <em>Days</em></time>
+            <p>21 Individual Classes + Practical Classes </p>
+            <p>Extra Practice Sessions if required</p>
+            <p>Price: Rs. 35,000</p>
+          </div>
+          <footer><a class="btn" href="courses">Read More</a></footer>
+        </article>
+      </li>
+      <li class="one_third">
+        <article><a class="imgover" href="courses"><img src="{% static '\demo\gallery\40.png' %}" alt=""></a>
+          <ul class="nospace meta clear">
+            <!-- <li><i class="fas fa-user"></i> <a href="#">Admin</a></li>
+            <li><i class="fas fa-comments"></i> <a href="#">Comments (10)</a></li> -->
+          </ul>
+          <div class="excerpt clear">
+            <h6 class="heading">Private Pro Makeup and Hairstyling Course</h6>
+            <time datetime="2045-04-03T08:15+00:00"><strong>30</strong> <em>Days</em></time>
+            <p>30 Individual Classes + Practical Classes</p>
+            <p>Extra Practice Sessions if required</p>
+            <p>Price: Rs. 45,000</p>
+          </div>
+          <footer><a class="btn" href="courses">Read More</a></footer>
+        </article>
+      </li>
+    </ul>
+    <!-- ################################################################################################ -->
+  </section>
+</div>
+<!--<div class="wrapper row3">-->
+<!--  <div class="wrapper bgded overlay" style="background-image:url('static/demo/backgrounds/Japan-Organic-Cosmetics-Market.jpg');">-->
+<!--    <section id="testimonials" class="hoc container clear">-->
+<!--      &lt;!&ndash; ################################################################################################ &ndash;&gt;-->
+<!--      <div class="sectiontitle">-->
+<!--        <p class="heading underline font-x2">Our Client Reviews</p>-->
+<!--      </div>-->
+<!--      <article class="btmspace-80">-->
+<!--        <blockquote>Pellentesque ipsum pede malesuada non vulputate at euismod et lorem nullam tincidunt urna eget nisl eleifend vulputate sed vitae risus sed enim fermentum venenatis sed augue eros tempor sit amet.</blockquote>-->
+<!--        <figure class="clear"><img src="images/demo/60x60.png" alt="">-->
+<!--          <figcaption>-->
+<!--            <h6 class="heading">John Doe</h6>-->
+<!--        </figure>-->
+<!--      </article>-->
+<!--      &lt;!&ndash; ################################################################################################ &ndash;&gt;-->
+<!--    </section>-->
+<!--  </div>-->
+<!--</div>-->
+
+<div class="wrapper row3">
+    <!-- ################################################################################################ -->
+    <div class="sectiontitle">
+      <p class="heading underline font-x2">Our Client Reviews</p>
+    </div>
+</div>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'demo/backgrounds/3.png' %}" class="d-block w-100" alt="...">
+<!--      <div class="carousel-caption d-none d-md-block">-->
+<!--        <article class="btmspace-8">-->
+<!--          <blockquote>Excellent! Easy to communicate with and very responsive. She was prompt and professional, but most importantly she is a a highly skilled makeup artist. Her work was truly flawless! Would recommend without hesitation!</blockquote>-->
+<!--            <figure class="clear"><img src="{% static 'demo/backgrounds/Screenshot 2021-07-04 163233.png' %}" alt="">-->
+<!--              <figcaption>-->
+<!--                <h6 class="heading">Sonali</h6>-->
+<!--              </figcaption>-->
+<!--            </figure>-->
+<!--        </article>-->
+<!--      </div>-->
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'demo/backgrounds/21.png' %}" class="d-block w-100" alt="...">
+<!--      <div class="carousel-caption d-none d-md-block">-->
+<!--        <div class="carousel-caption d-none d-md-block">-->
+<!--        <article class="btmspace-8">-->
+<!--          <blockquote>Shikha Ma'am is amazing!!! I hands down think she is one of the best makeup artist I have seen. She is extremely professional and knowledgeable. Made my makeup and skin look flawless, received so many compliments!!</blockquote>-->
+<!--            <figure class="clear"><img src="{% static 'demo/backgrounds/Screenshot 2021-07-04 163041.png' %}" alt="">-->
+<!--              <figcaption>-->
+<!--                <h6 class="heading">Poonam</h6>-->
+<!--              </figcaption>-->
+<!--            </figure>-->
+<!--        </article>-->
+<!--      </div>-->
+<!--      </div>-->
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'demo/backgrounds/1.png' %}" class="d-block w-100" alt="...">
+<!--      <div class="carousel-caption d-none d-md-block">-->
+<!--        <div class="carousel-caption d-none d-md-block">-->
+<!--        <article class="btmspace-0">-->
+<!--          <blockquote>Absolutely loved her make-up! Great experience! Totally commendable! Yes! Yes! Yes!</blockquote>-->
+<!--            <figure class="clear"><img src="{% static 'demo/backgrounds/Screenshot 2021-07-04 163206.png' %}" alt="">-->
+<!--              <figcaption>-->
+<!--                <h6 class="heading">Jaspreet</h6>-->
+<!--              </figcaption>-->
+<!--            </figure>-->
+<!--        </article>-->
+<!--      </div>-->
+<!--      </div>-->
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+{% endblock %}
+{% block javascripts %}
+<script src="{% static '/scripts/jquery.min.js' %}"></script>
+<script src="{% static '/scripts/jquery.backtotop.js' %}"></script>
+<script src="{% static '/scripts/jquery.mobilemenu.js' %}"></script>
+<script src="{% static '/scripts/main.js' %}"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+{% endblock javascripts %}
+
