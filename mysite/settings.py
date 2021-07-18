@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-m%6m5_*=$i4=y=szvwn30pm@%$99+c#ep=htnp*2!p@k8xc4=h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','sampledomain.com'] #add heroku domain name
+ALLOWED_HOSTS = ['127.0.0.1','makeupstudiofinal.herokuapp.com/'] #add heroku domain name
 
 
 # Application definition
